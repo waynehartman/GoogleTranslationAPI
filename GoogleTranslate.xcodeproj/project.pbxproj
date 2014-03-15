@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0C2C96318D4A26C00A011D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C96218D4A26C00A011D0 /* Foundation.framework */; };
+		B0C2C96818D4A26C00A011D0 /* GoogleTranslate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B0C2C96718D4A26C00A011D0 /* GoogleTranslate.h */; };
+		B0C2C96A18D4A26C00A011D0 /* GoogleTranslate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2C96918D4A26C00A011D0 /* GoogleTranslate.m */; };
+		B0C2C97118D4A26C00A011D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C97018D4A26C00A011D0 /* XCTest.framework */; };
+		B0C2C97218D4A26C00A011D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C96218D4A26C00A011D0 /* Foundation.framework */; };
+		B0C2C97418D4A26C00A011D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C97318D4A26C00A011D0 /* UIKit.framework */; };
+		B0C2C97718D4A26C00A011D0 /* libGoogleTranslate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C95F18D4A26C00A011D0 /* libGoogleTranslate.a */; };
+		B0C2C97D18D4A26C00A011D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0C2C97B18D4A26C00A011D0 /* InfoPlist.strings */; };
+		B0C2C97F18D4A26C00A011D0 /* GoogleTranslateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2C97E18D4A26C00A011D0 /* GoogleTranslateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0C2C97518D4A26C00A011D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0C2C95718D4A26C00A011D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0C2C95E18D4A26C00A011D0;
+			remoteInfo = GoogleTranslate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0C2C95D18D4A26C00A011D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B0C2C96818D4A26C00A011D0 /* GoogleTranslate.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B0C2C95F18D4A26C00A011D0 /* libGoogleTranslate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGoogleTranslate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C2C96218D4A26C00A011D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0C2C96618D4A26C00A011D0 /* GoogleTranslate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleTranslate-Prefix.pch"; sourceTree = "<group>"; };
+		B0C2C96718D4A26C00A011D0 /* GoogleTranslate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleTranslate.h; sourceTree = "<group>"; };
+		B0C2C96918D4A26C00A011D0 /* GoogleTranslate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleTranslate.m; sourceTree = "<group>"; };
+		B0C2C96F18D4A26C00A011D0 /* GoogleTranslateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleTranslateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C2C97018D4A26C00A011D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B0C2C97318D4A26C00A011D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B0C2C97A18D4A26C00A011D0 /* GoogleTranslateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleTranslateTests-Info.plist"; sourceTree = "<group>"; };
+		B0C2C97C18D4A26C00A011D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0C2C97E18D4A26C00A011D0 /* GoogleTranslateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleTranslateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0C2C95C18D4A26C00A011D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C2C96318D4A26C00A011D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C2C96C18D4A26C00A011D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C2C97118D4A26C00A011D0 /* XCTest.framework in Frameworks */,
+				B0C2C97718D4A26C00A011D0 /* libGoogleTranslate.a in Frameworks */,
+				B0C2C97418D4A26C00A011D0 /* UIKit.framework in Frameworks */,
+				B0C2C97218D4A26C00A011D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0C2C95618D4A26C00A011D0 = {
+			isa = PBXGroup;
+			children = (
+				B0C2C96418D4A26C00A011D0 /* GoogleTranslate */,
+				B0C2C97818D4A26C00A011D0 /* GoogleTranslateTests */,
+				B0C2C96118D4A26C00A011D0 /* Frameworks */,
+				B0C2C96018D4A26C00A011D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0C2C96018D4A26C00A011D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0C2C95F18D4A26C00A011D0 /* libGoogleTranslate.a */,
+				B0C2C96F18D4A26C00A011D0 /* GoogleTranslateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0C2C96118D4A26C00A011D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0C2C96218D4A26C00A011D0 /* Foundation.framework */,
+				B0C2C97018D4A26C00A011D0 /* XCTest.framework */,
+				B0C2C97318D4A26C00A011D0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0C2C96418D4A26C00A011D0 /* GoogleTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				B0C2C96718D4A26C00A011D0 /* GoogleTranslate.h */,
+				B0C2C96918D4A26C00A011D0 /* GoogleTranslate.m */,
+				B0C2C96518D4A26C00A011D0 /* Supporting Files */,
+			);
+			path = GoogleTranslate;
+			sourceTree = "<group>";
+		};
+		B0C2C96518D4A26C00A011D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0C2C96618D4A26C00A011D0 /* GoogleTranslate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0C2C97818D4A26C00A011D0 /* GoogleTranslateTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0C2C97E18D4A26C00A011D0 /* GoogleTranslateTests.m */,
+				B0C2C97918D4A26C00A011D0 /* Supporting Files */,
+			);
+			path = GoogleTranslateTests;
+			sourceTree = "<group>";
+		};
+		B0C2C97918D4A26C00A011D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0C2C97A18D4A26C00A011D0 /* GoogleTranslateTests-Info.plist */,
+				B0C2C97B18D4A26C00A011D0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0C2C95E18D4A26C00A011D0 /* GoogleTranslate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C2C98218D4A26C00A011D0 /* Build configuration list for PBXNativeTarget "GoogleTranslate" */;
+			buildPhases = (
+				B0C2C95B18D4A26C00A011D0 /* Sources */,
+				B0C2C95C18D4A26C00A011D0 /* Frameworks */,
+				B0C2C95D18D4A26C00A011D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleTranslate;
+			productName = GoogleTranslate;
+			productReference = B0C2C95F18D4A26C00A011D0 /* libGoogleTranslate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B0C2C96E18D4A26C00A011D0 /* GoogleTranslateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C2C98518D4A26C00A011D0 /* Build configuration list for PBXNativeTarget "GoogleTranslateTests" */;
+			buildPhases = (
+				B0C2C96B18D4A26C00A011D0 /* Sources */,
+				B0C2C96C18D4A26C00A011D0 /* Frameworks */,
+				B0C2C96D18D4A26C00A011D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0C2C97618D4A26C00A011D0 /* PBXTargetDependency */,
+			);
+			name = GoogleTranslateTests;
+			productName = GoogleTranslateTests;
+			productReference = B0C2C96F18D4A26C00A011D0 /* GoogleTranslateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0C2C95718D4A26C00A011D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Wayne Hartman";
+			};
+			buildConfigurationList = B0C2C95A18D4A26C00A011D0 /* Build configuration list for PBXProject "GoogleTranslate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0C2C95618D4A26C00A011D0;
+			productRefGroup = B0C2C96018D4A26C00A011D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0C2C95E18D4A26C00A011D0 /* GoogleTranslate */,
+				B0C2C96E18D4A26C00A011D0 /* GoogleTranslateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0C2C96D18D4A26C00A011D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C2C97D18D4A26C00A011D0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0C2C95B18D4A26C00A011D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C2C96A18D4A26C00A011D0 /* GoogleTranslate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C2C96B18D4A26C00A011D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C2C97F18D4A26C00A011D0 /* GoogleTranslateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0C2C97618D4A26C00A011D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0C2C95E18D4A26C00A011D0 /* GoogleTranslate */;
+			targetProxy = B0C2C97518D4A26C00A011D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0C2C97B18D4A26C00A011D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C2C97C18D4A26C00A011D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0C2C98018D4A26C00A011D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0C2C98118D4A26C00A011D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0C2C98318D4A26C00A011D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GoogleTranslate.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleTranslate/GoogleTranslate-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B0C2C98418D4A26C00A011D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GoogleTranslate.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleTranslate/GoogleTranslate-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B0C2C98618D4A26C00A011D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleTranslate/GoogleTranslate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GoogleTranslateTests/GoogleTranslateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B0C2C98718D4A26C00A011D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleTranslate/GoogleTranslate-Prefix.pch";
+				INFOPLIST_FILE = "GoogleTranslateTests/GoogleTranslateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0C2C95A18D4A26C00A011D0 /* Build configuration list for PBXProject "GoogleTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C2C98018D4A26C00A011D0 /* Debug */,
+				B0C2C98118D4A26C00A011D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C2C98218D4A26C00A011D0 /* Build configuration list for PBXNativeTarget "GoogleTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C2C98318D4A26C00A011D0 /* Debug */,
+				B0C2C98418D4A26C00A011D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0C2C98518D4A26C00A011D0 /* Build configuration list for PBXNativeTarget "GoogleTranslateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C2C98618D4A26C00A011D0 /* Debug */,
+				B0C2C98718D4A26C00A011D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0C2C95718D4A26C00A011D0 /* Project object */;
+}
