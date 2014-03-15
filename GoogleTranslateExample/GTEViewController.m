@@ -69,6 +69,7 @@ static NSString *API_KEY = @"";
     [self.translationAPI translateText:self.textView.text usingSourceLanguage:self.sourceLanguage destinationLanguage:self.destinationLanguage withCompletionHandler:^(NSArray *translations, NSError *error)
     {
         if (error) {
+            NSLog(@"%@", error);
             NSString *message = [NSString stringWithFormat:@"Unable to fetch language: %@", error];
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error"
                                                             message:message

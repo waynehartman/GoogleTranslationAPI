@@ -89,9 +89,8 @@
                 }
             }
         };
-        
-        AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-        [manager GET:API_URL_TRANSLATE_TEXT parameters:parameters success:successHandler failure:failureHandler];
+
+        [self sendRequestWithUrlPath:API_URL_TRANSLATE_TEXT parms:parameters successHandler:successHandler failureHandler:failureHandler];
     }
 }
 
@@ -128,9 +127,8 @@
                 }
             }
         };
-        
-        AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-        [manager GET:API_URL_DETECT_LANGUAGE parameters:parameters success:successHandler failure:failureHandler];
+
+        [self sendRequestWithUrlPath:API_URL_DETECT_LANGUAGE parms:parameters successHandler:successHandler failureHandler:failureHandler];
     }
 }
 
@@ -158,27 +156,49 @@
                                     PARM_KEY_LANGUAGE_TARGET : languageCode
                                  };
 
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager GET:API_URL_GET_LANGUAGES parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    void(^failureHandler)(AFHTTPRequestOperation*, NSError*) = ^(AFHTTPRequestOperation *operation, NSError *error) {
+        if (completionHandler) {
+            completionHandler(nil, error);
+        }
+    };
+
+    void(^successHandler)(AFHTTPRequestOperation*, id) = ^(AFHTTPRequestOperation *operation, id responseObject) {
         if (completionHandler) {
             NSArray *languages = [self languagesFromDictionary:responseObject];
             GTLanguageCache *cache = [[GTLanguageCache alloc] init];
             [cache cacheLanguageList:languages forLanguageCode:languageCode];
-
+            
             completionHandler(languages, nil);
         }
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        if (completionHandler) {
-            completionHandler(nil, error);
-        }
-    }];
+    };
+
+    [self sendRequestWithUrlPath:API_URL_GET_LANGUAGES parms:parameters successHandler:successHandler failureHandler:failureHandler];
 }
 
-#pragma mark - Caching
-
-
-
 #pragma mark - Utility Methods
+
+- (void)sendRequestWithUrlPath:(NSString *)path parms:(NSDictionary *)parms successHandler:(void (^)(AFHTTPRequestOperation *operation, id responseObject))successHandler failureHandler:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failureHandler
+{
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    NSMutableURLRequest *request = [self translateRequestWithPath:path parms:parms];
+
+    AFHTTPRequestOperation *operation = [manager HTTPRequestOperationWithRequest:request
+                                                                         success:successHandler
+                                                                         failure:failureHandler];
+
+    [manager.operationQueue addOperation:operation];
+}
+
+- (NSMutableURLRequest *)translateRequestWithPath:(NSString *)path parms:(NSDictionary *)parms {
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    NSMutableURLRequest *request = [manager.requestSerializer requestWithMethod:@"GET"
+                                                                      URLString:path
+                                                                     parameters:parms
+                                                                          error:nil];
+    [request addValue:[[NSBundle mainBundle] bundleIdentifier] forHTTPHeaderField:@"Referer"];
+    
+    return request;
+}
 
 - (BOOL)passesPrevalidationTranslationForText:(NSString *)text error:(NSError **)error {
     if (!self.apiKey) {

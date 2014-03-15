@@ -62,7 +62,7 @@
                                         <rect key="frame" x="10" y="20" width="145" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="145" id="hMZ-vh-ZFx"/>
+                                            <constraint firstAttribute="width" constant="145" id="nKS-Fl-DmW"/>
                                         </constraints>
                                         <state key="normal" title="Src Language">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -75,7 +75,7 @@
                                         <rect key="frame" x="163" y="20" width="145" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="145" id="Wfa-US-ZgN"/>
+                                            <constraint firstAttribute="width" constant="145" id="TPr-Mw-6cO"/>
                                         </constraints>
                                         <state key="normal" title="Dest Language">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -87,12 +87,12 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.96999999999999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="ueE-BL-fcm" firstAttribute="leading" secondItem="2Xu-N0-9xq" secondAttribute="trailing" constant="8" id="0oC-kX-SYy"/>
+                                    <constraint firstAttribute="centerY" secondItem="ueE-BL-fcm" secondAttribute="centerY" id="IqR-d1-ddB"/>
+                                    <constraint firstAttribute="centerX" secondItem="2Xu-N0-9xq" secondAttribute="centerX" constant="77.5" id="Kfo-lt-tAY"/>
                                     <constraint firstAttribute="height" constant="70" id="O7A-Rt-H9h"/>
-                                    <constraint firstAttribute="trailing" secondItem="ueE-BL-fcm" secondAttribute="trailing" constant="12" id="WH5-DH-ikn"/>
-                                    <constraint firstItem="2Xu-N0-9xq" firstAttribute="leading" secondItem="CkS-S6-wam" secondAttribute="leading" constant="10" id="Zpl-tw-pYk"/>
-                                    <constraint firstItem="ueE-BL-fcm" firstAttribute="top" secondItem="CkS-S6-wam" secondAttribute="top" constant="20" id="eSr-HX-x2y"/>
-                                    <constraint firstItem="2Xu-N0-9xq" firstAttribute="top" secondItem="CkS-S6-wam" secondAttribute="top" constant="20" id="uz5-bn-DNb"/>
+                                    <constraint firstAttribute="centerX" secondItem="ueE-BL-fcm" secondAttribute="centerX" constant="-75.5" id="dC2-gF-G0Z"/>
+                                    <constraint firstAttribute="centerY" secondItem="2Xu-N0-9xq" secondAttribute="centerY" id="gMy-Uj-o03"/>
+                                    <constraint firstItem="ueE-BL-fcm" firstAttribute="leading" secondItem="2Xu-N0-9xq" secondAttribute="trailing" constant="8" id="wD0-6Z-3e6"/>
                                 </constraints>
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Hello. My name is Inigo Montoya. You killed my father. Prepare to die." translatesAutoresizingMaskIntoConstraints="NO" id="f82-D3-ocn">
@@ -105,15 +105,24 @@
                                     <outlet property="delegate" destination="gYQ-N0-6W6" id="kGu-2a-OR9"/>
                                 </connections>
                             </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="powered by Google Translate" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1Q-90-mEI">
+                                <rect key="frame" x="83" y="542" width="225" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="x1Q-90-mEI" secondAttribute="trailing" constant="12" id="0z0-ID-COY"/>
                             <constraint firstItem="CkS-S6-wam" firstAttribute="leading" secondItem="qdB-uc-hXz" secondAttribute="leading" id="8IT-8P-FF1"/>
                             <constraint firstItem="CkS-S6-wam" firstAttribute="top" secondItem="xZH-Tk-DBm" secondAttribute="bottom" constant="-1" id="BxD-cz-avd"/>
                             <constraint firstAttribute="trailing" secondItem="CkS-S6-wam" secondAttribute="trailing" id="IwU-fQ-huj"/>
                             <constraint firstItem="f82-D3-ocn" firstAttribute="leading" secondItem="qdB-uc-hXz" secondAttribute="leading" id="L6Q-2v-nYi"/>
                             <constraint firstItem="f82-D3-ocn" firstAttribute="top" secondItem="CkS-S6-wam" secondAttribute="bottom" id="fK4-Mb-Xx3"/>
                             <constraint firstItem="B1T-Z9-0II" firstAttribute="top" secondItem="f82-D3-ocn" secondAttribute="bottom" id="i8g-bG-DRb"/>
+                            <constraint firstItem="B1T-Z9-0II" firstAttribute="top" secondItem="x1Q-90-mEI" secondAttribute="bottom" constant="5" id="nuO-YK-sIS"/>
                             <constraint firstAttribute="trailing" secondItem="f82-D3-ocn" secondAttribute="trailing" id="utu-kZ-1dJ"/>
                         </constraints>
                     </view>

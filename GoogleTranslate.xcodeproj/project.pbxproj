@@ -24,6 +24,10 @@
 		B05B177F18D4CA4F007B1B13 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B177618D4CA4F007B1B13 /* AFURLSessionManager.m */; };
 		B05B178218D4D911007B1B13 /* GTTranslationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B178118D4D911007B1B13 /* GTTranslationResult.m */; };
 		B05B178618D4DCCB007B1B13 /* GTLanguagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B178518D4DCCB007B1B13 /* GTLanguagePickerViewController.m */; };
+		B05B178718D51FA2007B1B13 /* GTLanguage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B05B174418D4AF34007B1B13 /* GTLanguage.h */; };
+		B05B178818D51FA2007B1B13 /* GTLanguageCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B05B175F18D4C475007B1B13 /* GTLanguageCache.h */; };
+		B05B178918D51FA2007B1B13 /* GTLanguageDetectionResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B05B175018D4BC6B007B1B13 /* GTLanguageDetectionResult.h */; };
+		B05B178A18D51FA2007B1B13 /* GTTranslationResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B05B178018D4D911007B1B13 /* GTTranslationResult.h */; };
 		B0C2C96318D4A26C00A011D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C96218D4A26C00A011D0 /* Foundation.framework */; };
 		B0C2C97118D4A26C00A011D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C97018D4A26C00A011D0 /* XCTest.framework */; };
 		B0C2C97218D4A26C00A011D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C96218D4A26C00A011D0 /* Foundation.framework */; };
@@ -60,6 +64,10 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				B05B178718D51FA2007B1B13 /* GTLanguage.h in CopyFiles */,
+				B05B178818D51FA2007B1B13 /* GTLanguageCache.h in CopyFiles */,
+				B05B178918D51FA2007B1B13 /* GTLanguageDetectionResult.h in CopyFiles */,
+				B05B178A18D51FA2007B1B13 /* GTTranslationResult.h in CopyFiles */,
 				B05B174318D4ABDA007B1B13 /* GTTranslationAPI.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
