@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B05B174118D4A3AD007B1B13 /* GTTranslationAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B174018D4A3AD007B1B13 /* GTTranslationAPI.m */; };
+		B05B174218D4ABCE007B1B13 /* libGoogleTranslate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C95F18D4A26C00A011D0 /* libGoogleTranslate.a */; };
+		B05B174318D4ABDA007B1B13 /* GTTranslationAPI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B05B173F18D4A3AD007B1B13 /* GTTranslationAPI.h */; };
+		B05B174618D4AF34007B1B13 /* GTLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B174518D4AF34007B1B13 /* GTLanguage.m */; };
+		B05B175218D4BC6B007B1B13 /* GTLanguageDetectionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B175118D4BC6B007B1B13 /* GTLanguageDetectionResult.m */; };
+		B05B176118D4C475007B1B13 /* GTLanguageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B176018D4C475007B1B13 /* GTLanguageCache.m */; };
+		B05B177718D4CA4F007B1B13 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B176518D4CA4F007B1B13 /* AFHTTPRequestOperation.m */; };
+		B05B177818D4CA4F007B1B13 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B176718D4CA4F007B1B13 /* AFHTTPRequestOperationManager.m */; };
+		B05B177918D4CA4F007B1B13 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B176918D4CA4F007B1B13 /* AFHTTPSessionManager.m */; };
+		B05B177A18D4CA4F007B1B13 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B176C18D4CA4F007B1B13 /* AFNetworkReachabilityManager.m */; };
+		B05B177B18D4CA4F007B1B13 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B176E18D4CA4F007B1B13 /* AFSecurityPolicy.m */; };
+		B05B177C18D4CA4F007B1B13 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B177018D4CA4F007B1B13 /* AFURLConnectionOperation.m */; };
+		B05B177D18D4CA4F007B1B13 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B177218D4CA4F007B1B13 /* AFURLRequestSerialization.m */; };
+		B05B177E18D4CA4F007B1B13 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B177418D4CA4F007B1B13 /* AFURLResponseSerialization.m */; };
+		B05B177F18D4CA4F007B1B13 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B177618D4CA4F007B1B13 /* AFURLSessionManager.m */; };
+		B05B178218D4D911007B1B13 /* GTTranslationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B178118D4D911007B1B13 /* GTTranslationResult.m */; };
+		B05B178618D4DCCB007B1B13 /* GTLanguagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B178518D4DCCB007B1B13 /* GTLanguagePickerViewController.m */; };
 		B0C2C96318D4A26C00A011D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C96218D4A26C00A011D0 /* Foundation.framework */; };
-		B0C2C96818D4A26C00A011D0 /* GoogleTranslate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B0C2C96718D4A26C00A011D0 /* GoogleTranslate.h */; };
-		B0C2C96A18D4A26C00A011D0 /* GoogleTranslate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2C96918D4A26C00A011D0 /* GoogleTranslate.m */; };
 		B0C2C97118D4A26C00A011D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C97018D4A26C00A011D0 /* XCTest.framework */; };
 		B0C2C97218D4A26C00A011D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C96218D4A26C00A011D0 /* Foundation.framework */; };
 		B0C2C97418D4A26C00A011D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C97318D4A26C00A011D0 /* UIKit.framework */; };
 		B0C2C97718D4A26C00A011D0 /* libGoogleTranslate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C95F18D4A26C00A011D0 /* libGoogleTranslate.a */; };
 		B0C2C97D18D4A26C00A011D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0C2C97B18D4A26C00A011D0 /* InfoPlist.strings */; };
 		B0C2C97F18D4A26C00A011D0 /* GoogleTranslateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2C97E18D4A26C00A011D0 /* GoogleTranslateTests.m */; };
+		B0C2C9C518D4A2BF00A011D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C96218D4A26C00A011D0 /* Foundation.framework */; };
+		B0C2C9C618D4A2BF00A011D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C98E18D4A29700A011D0 /* CoreGraphics.framework */; };
+		B0C2C9C718D4A2BF00A011D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C97318D4A26C00A011D0 /* UIKit.framework */; };
+		B0C2C9CD18D4A2BF00A011D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0C2C9CB18D4A2BF00A011D0 /* InfoPlist.strings */; };
+		B0C2C9CF18D4A2BF00A011D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2C9CE18D4A2BF00A011D0 /* main.m */; };
+		B0C2C9D318D4A2BF00A011D0 /* GTEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2C9D218D4A2BF00A011D0 /* GTEAppDelegate.m */; };
+		B0C2C9D618D4A2BF00A011D0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C2C9D418D4A2BF00A011D0 /* Main_iPhone.storyboard */; };
+		B0C2C9D918D4A2BF00A011D0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C2C9D718D4A2BF00A011D0 /* Main_iPad.storyboard */; };
+		B0C2C9DC18D4A2BF00A011D0 /* GTEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2C9DB18D4A2BF00A011D0 /* GTEViewController.m */; };
+		B0C2C9DE18D4A2BF00A011D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C2C9DD18D4A2BF00A011D0 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,24 +60,76 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				B0C2C96818D4A26C00A011D0 /* GoogleTranslate.h in CopyFiles */,
+				B05B174318D4ABDA007B1B13 /* GTTranslationAPI.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B05B173F18D4A3AD007B1B13 /* GTTranslationAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTranslationAPI.h; sourceTree = "<group>"; };
+		B05B174018D4A3AD007B1B13 /* GTTranslationAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTranslationAPI.m; sourceTree = "<group>"; };
+		B05B174418D4AF34007B1B13 /* GTLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLanguage.h; sourceTree = "<group>"; };
+		B05B174518D4AF34007B1B13 /* GTLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLanguage.m; sourceTree = "<group>"; };
+		B05B175018D4BC6B007B1B13 /* GTLanguageDetectionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLanguageDetectionResult.h; sourceTree = "<group>"; };
+		B05B175118D4BC6B007B1B13 /* GTLanguageDetectionResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLanguageDetectionResult.m; sourceTree = "<group>"; };
+		B05B175518D4C378007B1B13 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		B05B175618D4C378007B1B13 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		B05B175718D4C378007B1B13 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B05B175818D4C378007B1B13 /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		B05B175918D4C378007B1B13 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B05B175A18D4C378007B1B13 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		B05B175B18D4C378007B1B13 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		B05B175C18D4C378007B1B13 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B05B175D18D4C378007B1B13 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		B05B175E18D4C378007B1B13 /* AFURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		B05B175F18D4C475007B1B13 /* GTLanguageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLanguageCache.h; sourceTree = "<group>"; };
+		B05B176018D4C475007B1B13 /* GTLanguageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLanguageCache.m; sourceTree = "<group>"; };
+		B05B176418D4CA4F007B1B13 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		B05B176518D4CA4F007B1B13 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		B05B176618D4CA4F007B1B13 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		B05B176718D4CA4F007B1B13 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		B05B176818D4CA4F007B1B13 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B05B176918D4CA4F007B1B13 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		B05B176A18D4CA4F007B1B13 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		B05B176B18D4CA4F007B1B13 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B05B176C18D4CA4F007B1B13 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		B05B176D18D4CA4F007B1B13 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		B05B176E18D4CA4F007B1B13 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		B05B176F18D4CA4F007B1B13 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		B05B177018D4CA4F007B1B13 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		B05B177118D4CA4F007B1B13 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B05B177218D4CA4F007B1B13 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		B05B177318D4CA4F007B1B13 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		B05B177418D4CA4F007B1B13 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		B05B177518D4CA4F007B1B13 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		B05B177618D4CA4F007B1B13 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		B05B178018D4D911007B1B13 /* GTTranslationResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTranslationResult.h; sourceTree = "<group>"; };
+		B05B178118D4D911007B1B13 /* GTTranslationResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTranslationResult.m; sourceTree = "<group>"; };
+		B05B178418D4DCCB007B1B13 /* GTLanguagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLanguagePickerViewController.h; sourceTree = "<group>"; };
+		B05B178518D4DCCB007B1B13 /* GTLanguagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLanguagePickerViewController.m; sourceTree = "<group>"; };
 		B0C2C95F18D4A26C00A011D0 /* libGoogleTranslate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGoogleTranslate.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C2C96218D4A26C00A011D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0C2C96618D4A26C00A011D0 /* GoogleTranslate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleTranslate-Prefix.pch"; sourceTree = "<group>"; };
-		B0C2C96718D4A26C00A011D0 /* GoogleTranslate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleTranslate.h; sourceTree = "<group>"; };
-		B0C2C96918D4A26C00A011D0 /* GoogleTranslate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleTranslate.m; sourceTree = "<group>"; };
 		B0C2C96F18D4A26C00A011D0 /* GoogleTranslateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleTranslateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C2C97018D4A26C00A011D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B0C2C97318D4A26C00A011D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B0C2C97A18D4A26C00A011D0 /* GoogleTranslateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleTranslateTests-Info.plist"; sourceTree = "<group>"; };
 		B0C2C97C18D4A26C00A011D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0C2C97E18D4A26C00A011D0 /* GoogleTranslateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleTranslateTests.m; sourceTree = "<group>"; };
+		B0C2C98E18D4A29700A011D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0C2C9C418D4A2BF00A011D0 /* GoogleTranslateExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleTranslateExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C2C9CA18D4A2BF00A011D0 /* GoogleTranslateExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleTranslateExample-Info.plist"; sourceTree = "<group>"; };
+		B0C2C9CC18D4A2BF00A011D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0C2C9CE18D4A2BF00A011D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0C2C9D018D4A2BF00A011D0 /* GoogleTranslateExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleTranslateExample-Prefix.pch"; sourceTree = "<group>"; };
+		B0C2C9D118D4A2BF00A011D0 /* GTEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTEAppDelegate.h; sourceTree = "<group>"; };
+		B0C2C9D218D4A2BF00A011D0 /* GTEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTEAppDelegate.m; sourceTree = "<group>"; };
+		B0C2C9D518D4A2BF00A011D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B0C2C9D818D4A2BF00A011D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B0C2C9DA18D4A2BF00A011D0 /* GTEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTEViewController.h; sourceTree = "<group>"; };
+		B0C2C9DB18D4A2BF00A011D0 /* GTEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTEViewController.m; sourceTree = "<group>"; };
+		B0C2C9DD18D4A2BF00A011D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,14 +152,94 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0C2C9C118D4A2BF00A011D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05B174218D4ABCE007B1B13 /* libGoogleTranslate.a in Frameworks */,
+				B0C2C9C618D4A2BF00A011D0 /* CoreGraphics.framework in Frameworks */,
+				B0C2C9C718D4A2BF00A011D0 /* UIKit.framework in Frameworks */,
+				B0C2C9C518D4A2BF00A011D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B05B175318D4C378007B1B13 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				B05B175418D4C378007B1B13 /* AFNetworking */,
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		B05B175418D4C378007B1B13 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B05B175518D4C378007B1B13 /* AFHTTPRequestOperation.h */,
+				B05B175618D4C378007B1B13 /* AFHTTPRequestOperationManager.h */,
+				B05B175718D4C378007B1B13 /* AFHTTPSessionManager.h */,
+				B05B175818D4C378007B1B13 /* AFNetworking.h */,
+				B05B175918D4C378007B1B13 /* AFNetworkReachabilityManager.h */,
+				B05B175A18D4C378007B1B13 /* AFSecurityPolicy.h */,
+				B05B175B18D4C378007B1B13 /* AFURLConnectionOperation.h */,
+				B05B175C18D4C378007B1B13 /* AFURLRequestSerialization.h */,
+				B05B175D18D4C378007B1B13 /* AFURLResponseSerialization.h */,
+				B05B175E18D4C378007B1B13 /* AFURLSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		B05B176218D4CA4F007B1B13 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				B05B176318D4CA4F007B1B13 /* AFNetworking */,
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		B05B176318D4CA4F007B1B13 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B05B176418D4CA4F007B1B13 /* AFHTTPRequestOperation.h */,
+				B05B176518D4CA4F007B1B13 /* AFHTTPRequestOperation.m */,
+				B05B176618D4CA4F007B1B13 /* AFHTTPRequestOperationManager.h */,
+				B05B176718D4CA4F007B1B13 /* AFHTTPRequestOperationManager.m */,
+				B05B176818D4CA4F007B1B13 /* AFHTTPSessionManager.h */,
+				B05B176918D4CA4F007B1B13 /* AFHTTPSessionManager.m */,
+				B05B176A18D4CA4F007B1B13 /* AFNetworking.h */,
+				B05B176B18D4CA4F007B1B13 /* AFNetworkReachabilityManager.h */,
+				B05B176C18D4CA4F007B1B13 /* AFNetworkReachabilityManager.m */,
+				B05B176D18D4CA4F007B1B13 /* AFSecurityPolicy.h */,
+				B05B176E18D4CA4F007B1B13 /* AFSecurityPolicy.m */,
+				B05B176F18D4CA4F007B1B13 /* AFURLConnectionOperation.h */,
+				B05B177018D4CA4F007B1B13 /* AFURLConnectionOperation.m */,
+				B05B177118D4CA4F007B1B13 /* AFURLRequestSerialization.h */,
+				B05B177218D4CA4F007B1B13 /* AFURLRequestSerialization.m */,
+				B05B177318D4CA4F007B1B13 /* AFURLResponseSerialization.h */,
+				B05B177418D4CA4F007B1B13 /* AFURLResponseSerialization.m */,
+				B05B177518D4CA4F007B1B13 /* AFURLSessionManager.h */,
+				B05B177618D4CA4F007B1B13 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		B05B178318D4DCAE007B1B13 /* Language Picker */ = {
+			isa = PBXGroup;
+			children = (
+				B05B178418D4DCCB007B1B13 /* GTLanguagePickerViewController.h */,
+				B05B178518D4DCCB007B1B13 /* GTLanguagePickerViewController.m */,
+			);
+			path = "Language Picker";
+			sourceTree = "<group>";
+		};
 		B0C2C95618D4A26C00A011D0 = {
 			isa = PBXGroup;
 			children = (
 				B0C2C96418D4A26C00A011D0 /* GoogleTranslate */,
 				B0C2C97818D4A26C00A011D0 /* GoogleTranslateTests */,
+				B0C2C9C818D4A2BF00A011D0 /* GoogleTranslateExample */,
 				B0C2C96118D4A26C00A011D0 /* Frameworks */,
 				B0C2C96018D4A26C00A011D0 /* Products */,
 			);
@@ -93,6 +250,7 @@
 			children = (
 				B0C2C95F18D4A26C00A011D0 /* libGoogleTranslate.a */,
 				B0C2C96F18D4A26C00A011D0 /* GoogleTranslateTests.xctest */,
+				B0C2C9C418D4A2BF00A011D0 /* GoogleTranslateExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +261,7 @@
 				B0C2C96218D4A26C00A011D0 /* Foundation.framework */,
 				B0C2C97018D4A26C00A011D0 /* XCTest.framework */,
 				B0C2C97318D4A26C00A011D0 /* UIKit.framework */,
+				B0C2C98E18D4A29700A011D0 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,9 +269,18 @@
 		B0C2C96418D4A26C00A011D0 /* GoogleTranslate */ = {
 			isa = PBXGroup;
 			children = (
-				B0C2C96718D4A26C00A011D0 /* GoogleTranslate.h */,
-				B0C2C96918D4A26C00A011D0 /* GoogleTranslate.m */,
+				B05B174418D4AF34007B1B13 /* GTLanguage.h */,
+				B05B174518D4AF34007B1B13 /* GTLanguage.m */,
+				B05B175F18D4C475007B1B13 /* GTLanguageCache.h */,
+				B05B176018D4C475007B1B13 /* GTLanguageCache.m */,
+				B05B175018D4BC6B007B1B13 /* GTLanguageDetectionResult.h */,
+				B05B175118D4BC6B007B1B13 /* GTLanguageDetectionResult.m */,
+				B05B173F18D4A3AD007B1B13 /* GTTranslationAPI.h */,
+				B05B174018D4A3AD007B1B13 /* GTTranslationAPI.m */,
+				B05B178018D4D911007B1B13 /* GTTranslationResult.h */,
+				B05B178118D4D911007B1B13 /* GTTranslationResult.m */,
 				B0C2C96518D4A26C00A011D0 /* Supporting Files */,
+				B05B175318D4C378007B1B13 /* Third Party */,
 			);
 			path = GoogleTranslate;
 			sourceTree = "<group>";
@@ -139,6 +307,34 @@
 			children = (
 				B0C2C97A18D4A26C00A011D0 /* GoogleTranslateTests-Info.plist */,
 				B0C2C97B18D4A26C00A011D0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0C2C9C818D4A2BF00A011D0 /* GoogleTranslateExample */ = {
+			isa = PBXGroup;
+			children = (
+				B05B178318D4DCAE007B1B13 /* Language Picker */,
+				B0C2C9D118D4A2BF00A011D0 /* GTEAppDelegate.h */,
+				B0C2C9D218D4A2BF00A011D0 /* GTEAppDelegate.m */,
+				B0C2C9D418D4A2BF00A011D0 /* Main_iPhone.storyboard */,
+				B0C2C9D718D4A2BF00A011D0 /* Main_iPad.storyboard */,
+				B0C2C9DA18D4A2BF00A011D0 /* GTEViewController.h */,
+				B0C2C9DB18D4A2BF00A011D0 /* GTEViewController.m */,
+				B0C2C9DD18D4A2BF00A011D0 /* Images.xcassets */,
+				B05B176218D4CA4F007B1B13 /* Third Party */,
+				B0C2C9C918D4A2BF00A011D0 /* Supporting Files */,
+			);
+			path = GoogleTranslateExample;
+			sourceTree = "<group>";
+		};
+		B0C2C9C918D4A2BF00A011D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0C2C9CA18D4A2BF00A011D0 /* GoogleTranslateExample-Info.plist */,
+				B0C2C9CB18D4A2BF00A011D0 /* InfoPlist.strings */,
+				B0C2C9CE18D4A2BF00A011D0 /* main.m */,
+				B0C2C9D018D4A2BF00A011D0 /* GoogleTranslateExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -181,6 +377,23 @@
 			productReference = B0C2C96F18D4A26C00A011D0 /* GoogleTranslateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B0C2C9C318D4A2BF00A011D0 /* GoogleTranslateExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C2C9F118D4A2BF00A011D0 /* Build configuration list for PBXNativeTarget "GoogleTranslateExample" */;
+			buildPhases = (
+				B0C2C9C018D4A2BF00A011D0 /* Sources */,
+				B0C2C9C118D4A2BF00A011D0 /* Frameworks */,
+				B0C2C9C218D4A2BF00A011D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleTranslateExample;
+			productName = GoogleTranslateExample;
+			productReference = B0C2C9C418D4A2BF00A011D0 /* GoogleTranslateExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,6 +402,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Wayne Hartman";
+				TargetAttributes = {
+					B0C2C96E18D4A26C00A011D0 = {
+						TestTargetID = B0C2C9C318D4A2BF00A011D0;
+					};
+				};
 			};
 			buildConfigurationList = B0C2C95A18D4A26C00A011D0 /* Build configuration list for PBXProject "GoogleTranslate" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -196,6 +414,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B0C2C95618D4A26C00A011D0;
 			productRefGroup = B0C2C96018D4A26C00A011D0 /* Products */;
@@ -204,6 +423,7 @@
 			targets = (
 				B0C2C95E18D4A26C00A011D0 /* GoogleTranslate */,
 				B0C2C96E18D4A26C00A011D0 /* GoogleTranslateTests */,
+				B0C2C9C318D4A2BF00A011D0 /* GoogleTranslateExample */,
 			);
 		};
 /* End PBXProject section */
@@ -217,6 +437,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0C2C9C218D4A2BF00A011D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C2C9D918D4A2BF00A011D0 /* Main_iPad.storyboard in Resources */,
+				B0C2C9DE18D4A2BF00A011D0 /* Images.xcassets in Resources */,
+				B0C2C9D618D4A2BF00A011D0 /* Main_iPhone.storyboard in Resources */,
+				B0C2C9CD18D4A2BF00A011D0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -224,7 +455,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0C2C96A18D4A26C00A011D0 /* GoogleTranslate.m in Sources */,
+				B05B176118D4C475007B1B13 /* GTLanguageCache.m in Sources */,
+				B05B178218D4D911007B1B13 /* GTTranslationResult.m in Sources */,
+				B05B174618D4AF34007B1B13 /* GTLanguage.m in Sources */,
+				B05B175218D4BC6B007B1B13 /* GTLanguageDetectionResult.m in Sources */,
+				B05B174118D4A3AD007B1B13 /* GTTranslationAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +468,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0C2C97F18D4A26C00A011D0 /* GoogleTranslateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C2C9C018D4A2BF00A011D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05B177718D4CA4F007B1B13 /* AFHTTPRequestOperation.m in Sources */,
+				B0C2C9CF18D4A2BF00A011D0 /* main.m in Sources */,
+				B05B177818D4CA4F007B1B13 /* AFHTTPRequestOperationManager.m in Sources */,
+				B05B177A18D4CA4F007B1B13 /* AFNetworkReachabilityManager.m in Sources */,
+				B05B177E18D4CA4F007B1B13 /* AFURLResponseSerialization.m in Sources */,
+				B05B177C18D4CA4F007B1B13 /* AFURLConnectionOperation.m in Sources */,
+				B05B177B18D4CA4F007B1B13 /* AFSecurityPolicy.m in Sources */,
+				B05B177918D4CA4F007B1B13 /* AFHTTPSessionManager.m in Sources */,
+				B05B177D18D4CA4F007B1B13 /* AFURLRequestSerialization.m in Sources */,
+				B05B178618D4DCCB007B1B13 /* GTLanguagePickerViewController.m in Sources */,
+				B05B177F18D4CA4F007B1B13 /* AFURLSessionManager.m in Sources */,
+				B0C2C9D318D4A2BF00A011D0 /* GTEAppDelegate.m in Sources */,
+				B0C2C9DC18D4A2BF00A011D0 /* GTEViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +508,30 @@
 				B0C2C97C18D4A26C00A011D0 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0C2C9CB18D4A2BF00A011D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C2C9CC18D4A2BF00A011D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0C2C9D418D4A2BF00A011D0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C2C9D518D4A2BF00A011D0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B0C2C9D718D4A2BF00A011D0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C2C9D818D4A2BF00A011D0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -353,6 +632,7 @@
 		B0C2C98618D4A26C00A011D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleTranslateExample.app/GoogleTranslateExample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -366,6 +646,7 @@
 				);
 				INFOPLIST_FILE = "GoogleTranslateTests/GoogleTranslateTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -373,6 +654,7 @@
 		B0C2C98718D4A26C00A011D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleTranslateExample.app/GoogleTranslateExample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -382,7 +664,50 @@
 				GCC_PREFIX_HEADER = "GoogleTranslate/GoogleTranslate-Prefix.pch";
 				INFOPLIST_FILE = "GoogleTranslateTests/GoogleTranslateTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		B0C2C9F218D4A2BF00A011D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleTranslateExample/GoogleTranslateExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GoogleTranslateExample/GoogleTranslateExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0C2C9F318D4A2BF00A011D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleTranslateExample/GoogleTranslateExample-Prefix.pch";
+				INFOPLIST_FILE = "GoogleTranslateExample/GoogleTranslateExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -405,6 +730,7 @@
 				B0C2C98418D4A26C00A011D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0C2C98518D4A26C00A011D0 /* Build configuration list for PBXNativeTarget "GoogleTranslateTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +739,16 @@
 				B0C2C98718D4A26C00A011D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C2C9F118D4A2BF00A011D0 /* Build configuration list for PBXNativeTarget "GoogleTranslateExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C2C9F218D4A2BF00A011D0 /* Debug */,
+				B0C2C9F318D4A2BF00A011D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

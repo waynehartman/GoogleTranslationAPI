@@ -38,6 +38,16 @@
                ReferencedContainer = "container:GoogleTranslate.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B0C2C9E218D4A2BF00A011D0"
+               BuildableName = "GoogleTranslateExampleTests.xctest"
+               BlueprintName = "GoogleTranslateExampleTests"
+               ReferencedContainer = "container:GoogleTranslate.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
