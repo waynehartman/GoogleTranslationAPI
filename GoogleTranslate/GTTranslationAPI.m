@@ -204,10 +204,8 @@
         NSMutableArray *translations = [[NSMutableArray alloc] initWithCapacity:rawTranslations.count];
 
         for (NSDictionary *rawTranslation in rawTranslations) {
-            GTTranslationResult *result = [[GTTranslationResult alloc] init];
-            result.text = rawTranslation[@"translatedText"];
-            result.detectedLanguageCode = rawTranslation[@"detectedSourceLanguage"];
-
+            GTTranslationResult *result = [[GTTranslationResult alloc] initWithText:rawTranslation[@"translatedText"]
+                                                               detectedLanguageCode:rawTranslation[@"detectedSourceLanguage"]];
             [translations addObject:result];
         }
 
@@ -225,10 +223,8 @@
         NSMutableArray *languages = [[NSMutableArray alloc] initWithCapacity:rawLanguages.count];
 
         for (NSDictionary *rawLanguage in rawLanguages) {
-            GTLanguage *language = [[GTLanguage alloc] init];
-            language.languageCode = rawLanguage[@"language"];
-            language.name = rawLanguage[@"name"];
-
+            GTLanguage *language = [[GTLanguage alloc] initWithLanguageCode:rawLanguage[@"language"]
+                                                                       name:rawLanguage[@"name"]];
             [languages addObject:language];
         }
 

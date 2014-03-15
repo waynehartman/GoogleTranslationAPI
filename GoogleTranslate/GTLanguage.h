@@ -15,4 +15,7 @@
 
 - (BOOL)isEqualToLanguage:(GTLanguage *)language;
 
+- (instancetype)initWithLanguageCode:(NSString *)languageCode;
+- (instancetype)initWithLanguageCode:(NSString *)languageCode name:(NSString *)name;
+
 @end

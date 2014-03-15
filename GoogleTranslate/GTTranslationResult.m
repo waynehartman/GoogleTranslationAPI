@@ -10,6 +10,19 @@
 
 @implementation GTTranslationResult
 
+#pragma mark - Initialization
+
+- (instancetype)initWithText:(NSString *)text detectedLanguageCode:(NSString *)detectedLanguageCode {
+    if ((self = [super init])) {
+        _text = text;
+        _detectedLanguageCode = detectedLanguageCode;
+    }
+
+    return self;
+}
+
+#pragma mark - Debug
+
 - (NSString *)debugDescription {
     NSString *superDescription = [super debugDescription];
     

@@ -13,4 +13,6 @@
 @property (nonatomic, strong) NSString *text;
 @property (nonatomic, strong) NSString *detectedLanguageCode;
 
+- (instancetype)initWithText:(NSString *)text detectedLanguageCode:(NSString *)detectedLanguageCode;
+
 @end

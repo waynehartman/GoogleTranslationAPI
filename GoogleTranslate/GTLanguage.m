@@ -10,6 +10,27 @@
 
 @implementation GTLanguage
 
+#pragma mark - Initialization
+
+- (instancetype)initWithLanguageCode:(NSString *)languageCode {
+    if ((self = [super init])) {
+        _languageCode = languageCode;
+    }
+
+    return self;
+}
+
+- (instancetype)initWithLanguageCode:(NSString *)languageCode name:(NSString *)name {
+    if ((self = [super init])) {
+        _languageCode = languageCode;
+        _name = name;
+    }
+
+    return self;
+}
+
+#pragma mark - Comparison
+
 - (BOOL)isEqualToLanguage:(GTLanguage *)language {
     if (self.languageCode == nil && language.languageCode == nil) {
         return YES;
