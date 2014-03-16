@@ -3,6 +3,8 @@ GoogleTranslationAPI v0.1
 
 GoogleTranslationAPI is an Objective-C wrapper for calling the Google Translate API.
 
+![Sample image from the API, translating a phrase from English to Arabic](exampleImage.png)
+
 How to use:
 ------------
 
