@@ -54,8 +54,12 @@ Setting up your API key involves several steps:
  1. In the "APIs & auth" section click on "Credentials" and click on "Create New Key"
  1. Select "Browser Key" from the pop up and add your application bundle ID as the referrer. The reason why we are doing this instead of generating an iOS key is because iOS and Android are currently broken.  This project will be updated when it has been fixed by Google.
 
-At this point the only method you can call is the `languages` API.  This is because you will need to setup billing.  As of this commit, Google allows up to 2 million characters of free translation per day.  Any usage beyond that is subject to charges.
+At this point the only method you can call is the `languages` API.  This is because you will need to setup billing.  When this project was created the pricing was as follows:
 
+ > $20 per 1 M characters of text, where the charges are adjusted in proportion to the number of characters actually provided. For example, if you were to translate 500K characters, you would be billed $10.
+ 
+ For the most up to date information on billing, please visit [Pricing for Google Translate](https://developers.google.com/translate/v2/pricing).
+ 
 ### Setting Up Billing ###
 
  1. Click on the "Settings", then "Billing", and then select your project.
