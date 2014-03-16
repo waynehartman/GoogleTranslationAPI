@@ -68,11 +68,13 @@ At this point the only method you can call is the `languages` API.  This is beca
  1. After the verfication email arrives, click on the link enclosed.
  1. Tada! You are now activated and ready to start making calls.
 
-### TODO ###
+TODO
+------
  
   - Unit tests
   - Refactoring
  
-### License ###
+License
+---------
 
-Please see LICENSE file for full details.
+BSD:  Please see LICENSE file for full details.
