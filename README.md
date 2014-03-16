@@ -80,3 +80,5 @@ License
 ---------
 
 BSD:  Please see LICENSE file for full details.
+
+Use of the Google Translate API is covered by additional [terms and conditions](https://developers.google.com/translate/v2/terms). 
