@@ -76,4 +76,4 @@ At this point the only method you can call is the `languages` API.  This is beca
  
 ### License ###
 
-Please see LICENSE file for full details.
+BSD:  Please see LICENSE file for full details.
