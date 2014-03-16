@@ -263,7 +263,6 @@
 
         for (NSDictionary *rawDetection in [rawDetections firstObject]) {
             GTLanguageDetectionResult *detectionResult = [[GTLanguageDetectionResult alloc] init];
-            detectionResult.reliable = [rawDetection[@"isReliable"] boolValue];
             detectionResult.languageCode = rawDetection[@"language"];
             detectionResult.confidence = [rawDetection[@"confidence"] floatValue];
 

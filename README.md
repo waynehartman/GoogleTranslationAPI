@@ -70,7 +70,6 @@ At this point the only method you can call is the `languages` API.  This is beca
 
 ### TODO ###
  
-  - Documentation
   - Unit tests
   - Refactoring
  
