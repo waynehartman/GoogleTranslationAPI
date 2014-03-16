@@ -28,6 +28,8 @@
 		B05B178818D51FA2007B1B13 /* GTLanguageCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B05B175F18D4C475007B1B13 /* GTLanguageCache.h */; };
 		B05B178918D51FA2007B1B13 /* GTLanguageDetectionResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B05B175018D4BC6B007B1B13 /* GTLanguageDetectionResult.h */; };
 		B05B178A18D51FA2007B1B13 /* GTTranslationResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B05B178018D4D911007B1B13 /* GTTranslationResult.h */; };
+		B05B1A4618D5EB63007B1B13 /* GTTranslationPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B1A4518D5EB63007B1B13 /* GTTranslationPreferences.m */; };
+		B05B1A4718D5EF79007B1B13 /* GTTranslationPreferences.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B05B1A4418D5EB63007B1B13 /* GTTranslationPreferences.h */; };
 		B0C2C96318D4A26C00A011D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C96218D4A26C00A011D0 /* Foundation.framework */; };
 		B0C2C97118D4A26C00A011D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C97018D4A26C00A011D0 /* XCTest.framework */; };
 		B0C2C97218D4A26C00A011D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C96218D4A26C00A011D0 /* Foundation.framework */; };
@@ -64,6 +66,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				B05B1A4718D5EF79007B1B13 /* GTTranslationPreferences.h in CopyFiles */,
 				B05B178718D51FA2007B1B13 /* GTLanguage.h in CopyFiles */,
 				B05B178818D51FA2007B1B13 /* GTLanguageCache.h in CopyFiles */,
 				B05B178918D51FA2007B1B13 /* GTLanguageDetectionResult.h in CopyFiles */,
@@ -116,6 +119,8 @@
 		B05B178118D4D911007B1B13 /* GTTranslationResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTranslationResult.m; sourceTree = "<group>"; };
 		B05B178418D4DCCB007B1B13 /* GTLanguagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLanguagePickerViewController.h; sourceTree = "<group>"; };
 		B05B178518D4DCCB007B1B13 /* GTLanguagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLanguagePickerViewController.m; sourceTree = "<group>"; };
+		B05B1A4418D5EB63007B1B13 /* GTTranslationPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTranslationPreferences.h; sourceTree = "<group>"; };
+		B05B1A4518D5EB63007B1B13 /* GTTranslationPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTranslationPreferences.m; sourceTree = "<group>"; };
 		B0C2C95F18D4A26C00A011D0 /* libGoogleTranslate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGoogleTranslate.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C2C96218D4A26C00A011D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0C2C96618D4A26C00A011D0 /* GoogleTranslate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleTranslate-Prefix.pch"; sourceTree = "<group>"; };
@@ -285,6 +290,8 @@
 				B05B175118D4BC6B007B1B13 /* GTLanguageDetectionResult.m */,
 				B05B173F18D4A3AD007B1B13 /* GTTranslationAPI.h */,
 				B05B174018D4A3AD007B1B13 /* GTTranslationAPI.m */,
+				B05B1A4418D5EB63007B1B13 /* GTTranslationPreferences.h */,
+				B05B1A4518D5EB63007B1B13 /* GTTranslationPreferences.m */,
 				B05B178018D4D911007B1B13 /* GTTranslationResult.h */,
 				B05B178118D4D911007B1B13 /* GTTranslationResult.m */,
 				B0C2C96518D4A26C00A011D0 /* Supporting Files */,
@@ -464,6 +471,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B05B176118D4C475007B1B13 /* GTLanguageCache.m in Sources */,
+				B05B1A4618D5EB63007B1B13 /* GTTranslationPreferences.m in Sources */,
 				B05B178218D4D911007B1B13 /* GTTranslationResult.m in Sources */,
 				B05B174618D4AF34007B1B13 /* GTLanguage.m in Sources */,
 				B05B175218D4BC6B007B1B13 /* GTLanguageDetectionResult.m in Sources */,
