@@ -36,7 +36,6 @@
 		B0C2C97418D4A26C00A011D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C97318D4A26C00A011D0 /* UIKit.framework */; };
 		B0C2C97718D4A26C00A011D0 /* libGoogleTranslate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C95F18D4A26C00A011D0 /* libGoogleTranslate.a */; };
 		B0C2C97D18D4A26C00A011D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0C2C97B18D4A26C00A011D0 /* InfoPlist.strings */; };
-		B0C2C97F18D4A26C00A011D0 /* GoogleTranslateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2C97E18D4A26C00A011D0 /* GoogleTranslateTests.m */; };
 		B0C2C9C518D4A2BF00A011D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C96218D4A26C00A011D0 /* Foundation.framework */; };
 		B0C2C9C618D4A2BF00A011D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C98E18D4A29700A011D0 /* CoreGraphics.framework */; };
 		B0C2C9C718D4A2BF00A011D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C2C97318D4A26C00A011D0 /* UIKit.framework */; };
@@ -47,6 +46,19 @@
 		B0C2C9D918D4A2BF00A011D0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C2C9D718D4A2BF00A011D0 /* Main_iPad.storyboard */; };
 		B0C2C9DC18D4A2BF00A011D0 /* GTEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C2C9DB18D4A2BF00A011D0 /* GTEViewController.m */; };
 		B0C2C9DE18D4A2BF00A011D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C2C9DD18D4A2BF00A011D0 /* Images.xcassets */; };
+		B0F50DDD18D65C7D000B4CB5 /* translate.json in Resources */ = {isa = PBXBuildFile; fileRef = B0F50DDC18D65C7D000B4CB5 /* translate.json */; };
+		B0F50DDF18D65CE6000B4CB5 /* detect.json in Resources */ = {isa = PBXBuildFile; fileRef = B0F50DDE18D65CE6000B4CB5 /* detect.json */; };
+		B0F50DE118D65D44000B4CB5 /* languages.json in Resources */ = {isa = PBXBuildFile; fileRef = B0F50DE018D65D44000B4CB5 /* languages.json */; };
+		B0F50DE318D65DB3000B4CB5 /* badrequest.json in Resources */ = {isa = PBXBuildFile; fileRef = B0F50DE218D65DB3000B4CB5 /* badrequest.json */; };
+		B0F50DE518D65E0F000B4CB5 /* noAccess.json in Resources */ = {isa = PBXBuildFile; fileRef = B0F50DE418D65E0F000B4CB5 /* noAccess.json */; };
+		B0F50DE918D65EBB000B4CB5 /* GTLocalDataProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F50DE818D65EBB000B4CB5 /* GTLocalDataProtocol.m */; };
+		B0F50DEC18D66565000B4CB5 /* GTTranslationAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F50DEB18D66565000B4CB5 /* GTTranslationAPITest.m */; };
+		B0F50DED18D6656E000B4CB5 /* GTLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B174518D4AF34007B1B13 /* GTLanguage.m */; };
+		B0F50DEE18D6656E000B4CB5 /* GTLanguageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B176018D4C475007B1B13 /* GTLanguageCache.m */; };
+		B0F50DEF18D6656E000B4CB5 /* GTLanguageDetectionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B175118D4BC6B007B1B13 /* GTLanguageDetectionResult.m */; };
+		B0F50DF018D6656E000B4CB5 /* GTTranslationAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B174018D4A3AD007B1B13 /* GTTranslationAPI.m */; };
+		B0F50DF118D6656E000B4CB5 /* GTTranslationPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B1A4518D5EB63007B1B13 /* GTTranslationPreferences.m */; };
+		B0F50DF218D6656E000B4CB5 /* GTTranslationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B178118D4D911007B1B13 /* GTTranslationResult.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,7 +141,6 @@
 		B0C2C97318D4A26C00A011D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B0C2C97A18D4A26C00A011D0 /* GoogleTranslateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleTranslateTests-Info.plist"; sourceTree = "<group>"; };
 		B0C2C97C18D4A26C00A011D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B0C2C97E18D4A26C00A011D0 /* GoogleTranslateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleTranslateTests.m; sourceTree = "<group>"; };
 		B0C2C98E18D4A29700A011D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B0C2C9C418D4A2BF00A011D0 /* GoogleTranslateExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleTranslateExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C2C9CA18D4A2BF00A011D0 /* GoogleTranslateExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleTranslateExample-Info.plist"; sourceTree = "<group>"; };
@@ -143,6 +154,15 @@
 		B0C2C9DA18D4A2BF00A011D0 /* GTEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTEViewController.h; sourceTree = "<group>"; };
 		B0C2C9DB18D4A2BF00A011D0 /* GTEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTEViewController.m; sourceTree = "<group>"; };
 		B0C2C9DD18D4A2BF00A011D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0F50DDC18D65C7D000B4CB5 /* translate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = translate.json; sourceTree = "<group>"; };
+		B0F50DDE18D65CE6000B4CB5 /* detect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = detect.json; sourceTree = "<group>"; };
+		B0F50DE018D65D44000B4CB5 /* languages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = languages.json; sourceTree = "<group>"; };
+		B0F50DE218D65DB3000B4CB5 /* badrequest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = badrequest.json; sourceTree = "<group>"; };
+		B0F50DE418D65E0F000B4CB5 /* noAccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noAccess.json; sourceTree = "<group>"; };
+		B0F50DE718D65EBB000B4CB5 /* GTLocalDataProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLocalDataProtocol.h; sourceTree = "<group>"; };
+		B0F50DE818D65EBB000B4CB5 /* GTLocalDataProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLocalDataProtocol.m; sourceTree = "<group>"; };
+		B0F50DEB18D66565000B4CB5 /* GTTranslationAPITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTranslationAPITest.m; sourceTree = "<group>"; };
+		B0F50DF318D668F4000B4CB5 /* GTAsyncTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAsyncTesting.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,8 +331,10 @@
 		B0C2C97818D4A26C00A011D0 /* GoogleTranslateTests */ = {
 			isa = PBXGroup;
 			children = (
-				B0C2C97E18D4A26C00A011D0 /* GoogleTranslateTests.m */,
+				B0F50DEB18D66565000B4CB5 /* GTTranslationAPITest.m */,
+				B0F50DDB18D65C63000B4CB5 /* JSON */,
 				B0C2C97918D4A26C00A011D0 /* Supporting Files */,
+				B0F50DE618D65E68000B4CB5 /* Utilities */,
 			);
 			path = GoogleTranslateTests;
 			sourceTree = "<group>";
@@ -352,6 +374,28 @@
 				B0C2C9D018D4A2BF00A011D0 /* GoogleTranslateExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0F50DDB18D65C63000B4CB5 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				B0F50DDC18D65C7D000B4CB5 /* translate.json */,
+				B0F50DDE18D65CE6000B4CB5 /* detect.json */,
+				B0F50DE018D65D44000B4CB5 /* languages.json */,
+				B0F50DE218D65DB3000B4CB5 /* badrequest.json */,
+				B0F50DE418D65E0F000B4CB5 /* noAccess.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		B0F50DE618D65E68000B4CB5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B0F50DE718D65EBB000B4CB5 /* GTLocalDataProtocol.h */,
+				B0F50DE818D65EBB000B4CB5 /* GTLocalDataProtocol.m */,
+				B0F50DF318D668F4000B4CB5 /* GTAsyncTesting.h */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -448,6 +492,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0F50DDF18D65CE6000B4CB5 /* detect.json in Resources */,
+				B0F50DE318D65DB3000B4CB5 /* badrequest.json in Resources */,
+				B0F50DE518D65E0F000B4CB5 /* noAccess.json in Resources */,
+				B0F50DE118D65D44000B4CB5 /* languages.json in Resources */,
+				B0F50DDD18D65C7D000B4CB5 /* translate.json in Resources */,
 				B0C2C97D18D4A26C00A011D0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,7 +532,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0C2C97F18D4A26C00A011D0 /* GoogleTranslateTests.m in Sources */,
+				B0F50DEF18D6656E000B4CB5 /* GTLanguageDetectionResult.m in Sources */,
+				B0F50DF218D6656E000B4CB5 /* GTTranslationResult.m in Sources */,
+				B0F50DED18D6656E000B4CB5 /* GTLanguage.m in Sources */,
+				B0F50DE918D65EBB000B4CB5 /* GTLocalDataProtocol.m in Sources */,
+				B0F50DEC18D66565000B4CB5 /* GTTranslationAPITest.m in Sources */,
+				B0F50DEE18D6656E000B4CB5 /* GTLanguageCache.m in Sources */,
+				B0F50DF018D6656E000B4CB5 /* GTTranslationAPI.m in Sources */,
+				B0F50DF118D6656E000B4CB5 /* GTTranslationPreferences.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
