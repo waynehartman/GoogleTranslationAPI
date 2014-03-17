@@ -40,8 +40,8 @@ How To Add To Your Project
  
 Dependencies
 -------------
-GoogleTranslationAPI currently has a dependency on [AFNetworking 2.0](https://github.com/AFNetworking/AFNetworking).  The headers are included in the project for compiling, but you will need to add AFNetworking library to your project.
- 
+GoogleTranslationAPI currently has a dependency on [AFNetworking 2.0](https://github.com/AFNetworking/AFNetworking).  While AFNetworking is included for the purposes of unit testing, it is NOT part of the library target.  You will need to add AFNetworking library to your own project.
+
 How to setup your API key
 --------------------------
 
